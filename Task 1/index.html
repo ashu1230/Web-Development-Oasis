@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div id="calculator">
+        <input type="text" id="display" disabled />
+        <br />
+        <button id="ac" class="operator white">AC</button>
+        <button id="de" class="operator white">DE</button>
+        <button id="." class="operator white size">.</button>
+        <button id="/" class="operator white size">/</button>
+        <br />
+        <button id="7">7</button>
+        <button id="8">8</button>
+        <button id="9">9</button>
+        <button id="*" class="operator white size">*</button>
+        <br />
+        <button id="4">4</button>
+        <button id="5">5</button>
+        <button id="6">6</button>
+        <button id="-" class="operator white size">-</button>
+        <br />
+        <button id="1">1</button>
+        <button id="2">2</button>
+        <button id="3">3</button>
+        <button id="+" class="operator white size">+</button>
+        <br />
+        <button id="00" class="color">00</button>
+        <button id="0">0</button>
+        <button id="=" class="equal operator Equalcolor">ENTER</button>
+    </div> 
+    <script src="./index.js"></script>
+</body>
+</html>
